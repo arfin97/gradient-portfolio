@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    color: dimgray;
+}
+
+section {
+    height: 700px;
+}
+
+img {
+    width: 70%;
+}
+
+.intro-section {
+    background-image: url(../img/header-bg.png);
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+}
+
+.big-name-text {
+    font-weight: 900;
+    color: deeppink;
+}
+
+.intro-left {
+    position: relative;
+    top: 10%;
+    left: 15%;
+}
+
+.common-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-image: linear-gradient(60deg, #ec5196, #ed4b6e);
+    border-radius: 7%;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.biography-section {
+    background-image: url(../img/biography-bg.png);
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    position: relative;
+}
+
+.biography-right {
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 100px;
+}
+
+.latest-work-section {
+    padding-top: 100px;
+    padding-left: 5%;
+    margin-left: 5px;
+    background-image: url(../img/latest-work-bg.png);
+}
+
+.latest-work-section h1 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.latest-work {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.latest-work-section img {
+    width: 25%;
+    margin-left: 5%;
+}
+
+.client-feedback-section {
+    text-align: center;
+}
+
+.client-email-banner {
+    display: inline-block;
+    margin-top: 80px;
+    padding: 50px 200px;
+    background-image: linear-gradient(60deg, #ec5196, #ed4b6e);
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.client-email-banner p {
+    color: white;
+    font-weight: normal;
+}
+
+.client-feedback {
+    width: 20%;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.my-skills {
+    height: 200px;
+    background-image: url(../img/latest-work-bg.png);
+}
+
+.my-skills h1 {
+    text-align: center;
+}
+
+.my-skills ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 50px 100px;
+    background-image: linear-gradient(40deg, #3f8ffb, #08f5c4);
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-radius: 2%;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.contents {
+    margin: 0 auto;
+    width: 65%;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+}
